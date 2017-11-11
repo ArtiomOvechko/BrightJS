@@ -51,8 +51,6 @@ var Bright = function() {
 
     return {
         start: start,
-        stop: stop,
-
-        generateBrightContent: generateBrightContent
+        stop: stop
     }
 }();
