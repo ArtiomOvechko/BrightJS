@@ -1,14 +1,16 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="bright.css" />
     <script type="text/javascript" src="bright.js"></script>
 </head>
 
 <body>
     <div class="bright"></div>
     <script>
-        Bright.start(10);
+        window.onload = function() {
+            Bright.init();
+            Bright.start(10);
+        }       
     </script>
 </body>
 
